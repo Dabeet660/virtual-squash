@@ -80,6 +80,7 @@ function draw() {
     ball.velocityX = 0;
     ball.x = 200;
     ball.y = 200;
+    paddle.velocityX = 0;
    }
   
   if(mousePressedOver(restart)){
@@ -104,4 +105,5 @@ function restartGame(){
   gameOver.visible = false;
   restart.visible = false;
   ball.velocityX = 9;
+  
  }
