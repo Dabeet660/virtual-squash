@@ -45,11 +45,7 @@ function draw() {
   ball.bounceOff(edges[3]);
   ball.bounceOff(edges[1]);
   ball.bounceOff(edges[2]);
-  paddle.bounceOff(edges[0]);
-  paddle.bounceOff(edges[1]);
-  paddle.bounceOff(edges[2]);
-  paddle.bounceOff(edges[3]);
-  
+  paddle.collide(edges);
   if(keyDown(UP_ARROW))
   {
      paddle.velocityY = -3;
