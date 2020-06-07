@@ -81,6 +81,8 @@ function draw() {
     ball.x = 200;
     ball.y = 200;
     paddle.velocityY = 0;
+    paddle.x = 100;
+    paddle.y = 100;
    }
   
   if(mousePressedOver(restart)){
